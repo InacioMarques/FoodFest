@@ -1,0 +1,177 @@
+body{
+  background-color: #28282b;
+}
+
+#heroIMG {
+  background: url(../Source/img/comida.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+nav {
+  background-color: transparent;
+}
+
+#nab{
+  background-color: black !important;
+  opacity: 70% !important;
+}
+
+#navIMG {
+  margin-left: 55px;
+  width: 100px;
+  height: 100px;
+  transition: all 0.2s ease-in-out;
+  color: red;
+}
+
+#navbarSupportedContent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#home {
+  background-color: transparent;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+  padding: 12px 15px;
+  border: 2px;
+  border-style:double;
+  border-color: rgba(245, 193, 39, 0.8);
+  border-radius: 10px;
+}
+
+#link {
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+  padding: 12px 15px;
+  border: 2px;
+  border-style:double;
+  border-color: rgba(245, 193, 39, 0.8);
+  border-radius: 10px;
+}
+
+#navbarDropdown {
+  background-color: transparent;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+  padding: 12px 15px;
+  border: 2px;
+  border-style:double;
+  border-color: rgba(245, 193, 39, 0.8);
+  border-radius: 10px;
+}
+
+#dropdownMenu{
+  background-color: black;
+}
+
+#dropdownMenuText{
+  color: white;
+}
+
+#dropdownMenuText:hover{
+  background-color: rgba(245, 193, 39, 0.8) !important;
+}
+
+#navIMG:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(245, 193, 39, 0.8);
+  border-radius: 20px;
+}
+
+#home:hover {
+  background-color: rgba(245, 193, 39, 0.8);
+}
+
+#link:hover {
+  background-color: rgba(245, 193, 39, 0.8);
+}
+
+#navbarDropdown:hover {
+  background-color: rgba(245, 193, 39, 0.8);
+}
+
+#themeButtom{
+  background-color: black !important;
+  opacity: 70%;
+}
+
+#apresentationContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+#apresentationH1{
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#containerCaroucel{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#carouselExampleCaptions{
+  height: 60%;
+  width: 60%;
+  margin-top: 10px;
+}
+
+#h1CardsTitle{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#cardsContainer{
+  display: flex;
+  justify-content: center;
+}
+
+#endNav{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#endNavLinks{
+  display: flex;
+  justify-content: right;
+}
+
+#navInfoSite{
+  color: white;
+  margin-right: 100px;
+}
+
+#navCreditos{
+  color: white;
+}
+
+#navReceitas{
+  color: white;
+}
+
+#navApiEdamam{
+  color: white;
+}
+
+#navSpoon{
+  color: white;
+}

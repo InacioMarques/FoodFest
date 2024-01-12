@@ -1,0 +1,57 @@
+body {
+  background-color: #28282b;
+  width: 100%;
+  display: flex;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+section{
+  padding-top: 10em;
+  flex: 30%;
+}
+
+#cardsContainer{
+  padding-top: 0em !important;
+  flex: 70% !important;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#boxContainer{
+  color:white;
+  width: 50%;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+}
+
+#card {
+  margin: 20px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 20px;
+}
+
+#cardImg1 {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+#card:hover {
+  box-shadow: 0 1px 10px rgba(255, 255, 255, 0.8);
+  transform: scale(1.05);
+}
+
+form > div{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#buttonFrom{
+  border-radius: 10px;
+}

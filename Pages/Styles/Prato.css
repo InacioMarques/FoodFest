@@ -1,0 +1,205 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: #28282b;
+}
+
+#heroIMG {
+    background: transparent !important;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {
+    background-color: transparent;
+}
+
+#nab{
+    background-color: black !important;
+    opacity: 70% !important;
+}
+
+#navIMG {
+    margin-left: 55px;
+    width: 100px;
+    height: 100px;
+    transition: all 0.2s ease-in-out;
+    color: red;
+}
+
+#navbarSupportedContent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#home {
+    background-color: transparent;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    padding: 12px 15px;
+    border: 2px;
+    border-style:double;
+    border-color: rgba(245, 193, 39, 0.8);
+    border-radius: 10px;
+}
+
+#link {
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    padding: 12px 15px;
+    border: 2px;
+    border-style:double;
+    border-color: rgba(245, 193, 39, 0.8);
+    border-radius: 10px;
+}
+
+#navbarDropdown {
+    background-color: transparent;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    padding: 12px 15px;
+    border: 2px;
+    border-style:double;
+    border-color: rgba(245, 193, 39, 0.8);
+    border-radius: 10px;
+}
+
+#dropdownMenu{
+    background-color: black;
+}
+
+#dropdownMenuText{
+    color: white;
+}
+
+#dropdownMenuText:hover{
+    background-color: rgba(245, 193, 39, 0.8) !important;
+}
+
+#navIMG:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(245, 193, 39, 0.8);
+    border-radius: 20px;
+}
+
+#home:hover {
+    background-color: rgba(245, 193, 39, 0.8);
+}
+
+#link:hover {
+    background-color: rgba(245, 193, 39, 0.8);
+}
+
+#navbarDropdown:hover {
+    background-color: rgba(245, 193, 39, 0.8);
+}
+
+#themeButtom{
+    background-color: black !important;
+    opacity: 70%;
+}
+
+#ulTypes{
+    margin-left: 200px; 
+    margin-top: 100px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 40px;
+    padding-right: 300px;
+}
+
+.liTypes{
+    width: 400px;
+    margin-bottom: 8px;
+}
+
+#navFood{
+    height: 60px;
+    background-color: #111111;
+    padding: 18px;
+}
+
+#aNavPerparacao{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#aNavIngredientes{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#ingerdienteValoresNutricionais{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#divValores{
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#endNav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#endNavLinks{
+    display: flex;
+    justify-content: right;
+}
+
+#navInfoSite{
+    color: white;
+    margin-right: 100px;
+}
+
+#navCreditos{
+    color: white;
+}
+
+#navReceitas{
+    color: white;
+}
+
+#navApiEdamam{
+    color: white;
+}
+
+#navSpoon{
+    color: white;
+}
